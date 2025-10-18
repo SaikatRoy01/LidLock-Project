@@ -1,0 +1,22 @@
+# LidLock v1.3.0 - Python Dependencies
+# ============================================================
+# Install all dependencies: pip install -r requirements.txt
+# ============================================================
+
+# System tray icon support
+pystray>=0.19.0
+
+# Image processing for tray icon
+Pillow>=10.0.0
+
+# Windows API access
+pywin32>=306
+
+# Windows Toast Notifications
+win10toast>=0.9
+
+# Hardware monitoring (optional but recommended for better detection)
+WMI>=1.5.1
+
+# For building executable
+pyinstaller>=6.0.0
